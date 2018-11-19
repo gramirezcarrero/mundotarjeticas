@@ -14,6 +14,18 @@
             var jsonResponse = req.response;
             // do something with jsonResponse
             console.log(jsonResponse)
+            JSON.parse(jsonResponse).map((e)=>{ 
+                var li = document.createElement("li");
+                var ul = document.getElementById("list");
+                var img =  new Image();
+                img.onload = function(){
+                    li.appendChild(img)
+                    ul.appendChild(li)
+                }
+                img.src = e.images.standard_resolution.url
+                // <li><img src="" />
+                // </li>
+            })
         };
 req.send(null);
         </script>
@@ -478,8 +490,8 @@ a.nice-link:hover:after {
             <input type="radio" name="slides" id="slides_4" />
             <input type="radio" name="slides" id="slides_5" />
             <input type="radio" name="slides" id="slides_6" />
-            <ul>
-                <li>
+            <ul id="list">
+                <!-- <li>
                     <h1>Say hello to CSS3</h1>
                     <p>CSSlider is lightweight & easy to use slider. No JS -
                         pure CSS.</p>
@@ -546,7 +558,7 @@ a.nice-link:hover:after {
                 <li>
                     <div id="center"><a class="play" id="dex-sign"
                             href="http://drygiel.com" target="_blank"></a></div>
-                </li>
+                </li> -->
             </ul>
             <div class="arrows">
                 <label for="slides_1"></label>
