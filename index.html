@@ -9,12 +9,18 @@
     <script>
           var url =  "https://mundotarjeticas.herokuapp.com/authorize"
           var req = new XMLHttpRequest();
-          req.responseType = 'json';
           req.open('GET', url, true);
           req.onload  = function() {
-            var jsonResponse = req.response;
-            // do something with jsonResponse
-            console.log(jsonResponse)
+            
+            var url =  "https://mundotarjeticas.herokuapp.com/"
+            var req2 = new XMLHttpRequest();
+            req2.responseType = 'json';
+            req2.open('GET', url, true);
+            req2.onload  = function() {
+                var jsonResponse = req.response;
+                // do something with jsonResponse
+                console.log(jsonResponse)
+            }
 };
 req.send(null);
         </script>
