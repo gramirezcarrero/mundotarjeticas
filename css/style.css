@@ -1259,7 +1259,7 @@ body {
   background: url('../images/instagram.svg')!important;
   background-size:cover !important;
   background-position:center !important;
-  fill: lightblue;
+  fill: rgb(228, 89, 221);
 }  
 .subtitle{
   color:black;
@@ -1269,4 +1269,7 @@ body {
   height: 30px;
   float: right;;
   background-color: #f0f0f0 !important;
+}
+.redes{
+  margin-right:20px; 
 }
