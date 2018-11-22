@@ -1249,6 +1249,24 @@ body {
   background-size:cover !important;
   background-position:center !important;
 }
+.facebookicon{
+  background: url('../images/facebook.svg')!important;
+  background-size:cover !important;
+  background-position:center !important;
+  fill: lightblue;
+} 
+.instagramicon{
+  background: url('../images/instagram.svg')!important;
+  background-size:cover !important;
+  background-position:center !important;
+  fill: lightblue;
+}  
 .subtitle{
   color:black;
+}
+.icons{
+  width: 30px;
+  height: 30px;
+  float: right;;
+  background-color: #f0f0f0 !important;
 }
