@@ -1079,11 +1079,14 @@ footer {
   left: 10px;
   -webkit-transform: rotate(-135deg);
           transform: rotate(-135deg);
+
+    box-shadow: 2px -5px black;
 }
 .carousel__control--forward {
   right: 10px;
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
+          box-shadow: 3px -1px black;
 }
 .carousel__indicators {
   position: absolute;
@@ -1188,6 +1191,7 @@ body {
 }
 .carousel__indicator {
   background-color: #fafafa;
+  box-shadow: inset 0px 0px 2px 1px black;
 }
 .carousel__slide:nth-of-type(1),
 .carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type(1) {
