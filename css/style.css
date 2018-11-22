@@ -1240,3 +1240,8 @@ body {
 .class-{
   background: rgba(0,0,0,0.5);
 }
+.whatsappicon{
+  background: url('../images/whatsapp.svg')!important;
+  background-size:cover !important;
+  background-position:center !important;
+}
