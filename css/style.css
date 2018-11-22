@@ -420,7 +420,9 @@ a.icon {
   padding: 62px 20px 62px 20px;
   margin-top: 33px;
 }
-
+.header-thumb-footer{
+  background: #000;
+}
 .header-one .header-thumb,
 .header-two .header-thumb,
 .header-three .header-thumb,
@@ -1222,4 +1224,19 @@ body {
   background-image: url("https://unsplash.it/1800?random");
   background-size: cover;
   background-position: center;
+}
+.back{
+  background-image: url("https://unsplash.it/1800?random");
+  background-size: cover;
+  background-position: center;
+}
+.about{
+  border: #fff 10px solid;
+  height: inherit;
+}
+.ph{
+  height: -webkit-fill-available;
+}
+.class-{
+  background: rgba(0,0,0,0.5);
 }
