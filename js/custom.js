@@ -18,7 +18,7 @@ function initialize() {
       scrollwheel: false
     };
   
-    map = new google.maps.Map(document.getElementById('map-canvas'),  mapOptions);
+    // map = new google.maps.Map(document.getElementById('map-canvas'),  mapOptions);
 
     google.maps.event.addDomListener(map, 'idle', function() {
         calculateCenter();
@@ -41,7 +41,7 @@ function loadGoogleMap(){
 }
 
 $(function(){
-  loadGoogleMap();
+//   loadGoogleMap();
 });
 
 
