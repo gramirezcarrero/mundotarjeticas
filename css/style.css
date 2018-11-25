@@ -1195,42 +1195,42 @@ body {
 }
 .carousel__slide:nth-of-type(1),
 .carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type(1) {
-  background-image: url("https://unsplash.it/300?random");
+  background-image: url("../images/bodasvintage.jpg");
   background-size: cover;
   background-position: center;
 }
 .carousel__slide:nth-of-type(2),
 .carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type(2) {
-  background-image: url("https://unsplash.it/600?random");
+  background-image: url("../images/mundotarjeticasmedellin.jpg");
   background-size: cover;
   background-position: center;
 }
 .carousel__slide:nth-of-type(3),
 .carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type(3) {
-  background-image: url("https://unsplash.it/900?random");
+  background-image: url("../images/descuentos-en-invitaciones.jpg");
   background-size: cover;
   background-position: center;
 }
 .carousel__slide:nth-of-type(4),
 .carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type(4) {
-  background-image: url("https://unsplash.it/1200?random");
+  background-image: url("https://images.unsplash.com/photo-1532295454114-d7bc89024613");
   background-size: cover;
   background-position: center;
 }
 .carousel__slide:nth-of-type(5),
 .carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type(5) {
-  background-image: url("https://unsplash.it/1500?random");
+  background-image: url("https://images.unsplash.com/photo-1535451801241-b5395e1d4a1b");
   background-size: cover;
   background-position: center;
 }
 .carousel__slide:nth-of-type(6),
 .carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type(6) {
-  background-image: url("https://unsplash.it/1800?random");
+  background-image: url("https://images.unsplash.com/photo-1517292987719-0369a794ec0f");
   background-size: cover;
   background-position: center;
 }
 .back{
-  background-image: url("https://unsplash.it/1800?random");
+  background-image: url("https://images.unsplash.com/photo-1515647433590-bd29995561a4");
   background-size: cover;
   background-position: center;
 }
